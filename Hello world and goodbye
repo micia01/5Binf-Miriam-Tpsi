@@ -1,0 +1,28 @@
+import java.awt.*;
+import javax.swing.*;
+public class Hello extends JFrame{		
+	public Hello() {
+		
+		super("5Binf rules");
+		super.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+		super.add(new JLabel("Hello world"));
+		super.add(new JLabel(""));
+		super.add(new JLabel(""));
+		super.add(new JLabel(""));
+		super.add(new JLabel(""));
+		super.add(new JLabel(""));
+		super.add(new JLabel(""));
+		super.add(new JLabel("Goodbye😝"));
+		super.pack();
+		
+		super.setLayout(new GridLayout(8,1));
+		super.setSize(300,300);
+		super.setVisible(true);
+	}
+	
+	public static void main (String[] args) {
+		new Hello();
+	}
+
+}
+
